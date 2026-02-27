@@ -5,7 +5,7 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-black?style=for-the-badge&logo=framer&logoColor=blue)
 
-A sleek, fast-paced collection of **12 cognitive micro-games** designed to test and train your memory, attention, and reaction speed. Built with modern web technologies, featuring smooth animations and a dark mode.
+A sleek, fast-paced collection of **21 cognitive micro-games** designed to test and train your memory, attention, and reaction speed. Built with modern web technologies, featuring smooth animations and a beautiful dark mode.
 
 🌍 **[Play the Live Demo Here](https://lostthursday.com)**
 
@@ -13,11 +13,11 @@ A sleek, fast-paced collection of **12 cognitive micro-games** designed to test 
 
 ## ✨ Features
 
-- **🎮 12 Unique Mini-Games:** From classic Simon Says and 15 Puzzle to hardcore cognitive tests like the Chimp Test and Color Clash.
+- **🎮 21 Unique Mini-Games:** From classic Simon Says and 15 Puzzle to hardcore cognitive tests like the N-Back Challenge, Rule Switcher, and Spatial Trap.
 - **🌙 Seamless Dark Mode:** A gorgeous, eye-friendly dark theme that toggles instantly and remembers your preference.
 - **🏆 Local High Scores:** Your best times and highest scores are automatically saved in your browser using `localStorage`.
 - **✨ Fluid Animations:** Powered by Framer Motion for satisfying micro-interactions, layout transitions, and celebratory confetti drops.
-- **📱 Fully Responsive:** Plays perfectly on desktop, tablet, and mobile devices.
+- **📱 Fully Responsive:** Plays perfectly on desktop, tablet, and mobile devices. Ready to be converted into a PWA or native mobile app.
 - **🚀 SEO Optimized:** Ready for search engines and social media sharing with Open Graph metadata.
 
 ---
@@ -36,6 +36,15 @@ A sleek, fast-paced collection of **12 cognitive micro-games** designed to test 
 10. **Math Rush 🧮** - Calculate fast under pressure. True or False?
 11. **Odd One Out 🕵️‍♂️** - Find the symbol that breaks the pattern before time runs out.
 12. **Arrow Dash ⬅️** - Focus ONLY on the center arrow. Ignore the distractors.
+13. **N-Back Challenge 🧠** - The ultimate memory test. Does this match the one 2 steps ago?
+14. **Reverse Recall ⏪** - Memorize the sequence, then type it BACKWARDS.
+15. **Spatial Trap 🧭** - Ignore where the arrow IS. Tell me where it POINTS.
+16. **Perfect Balance ⚖️** - Math and speed. Balance the scales before time runs out!
+17. **Pathfinder 🗺️** - Memorize the hidden path and trace it blindly.
+18. **Time Sense ⏱️** - Stop the clock exactly on the target time. No peeking!
+19. **Mirror Matrix 🪞** - Draw the perfect mirrored reflection of the pattern.
+20. **Rule Switcher 🔀** - Sort the cards. The rules change silently. Adapt fast!
+21. **Shell Game 🎩** - Track the hidden treasures as they shuffle at high speed!
 
 ---
 
@@ -46,4 +55,3 @@ A sleek, fast-paced collection of **12 cognitive micro-games** designed to test 
 - **Animations:** [Framer Motion](https://www.framer.com/motion/)
 - **Effects:** [Canvas Confetti](https://www.npmjs.com/package/canvas-confetti)
 - **Language:** TypeScript
-

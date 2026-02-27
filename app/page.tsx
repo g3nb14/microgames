@@ -57,19 +57,28 @@ export default function Home() {
   };
 
   const games = [
-    { id: 'memory', title: 'Memory Match', description: 'Train your memory. Complete all levels!', icon: '🧠', path: '/games/memory', color: 'from-pink-500 to-rose-500' },
-    { id: 'tiles', title: '15 Puzzle', description: 'The classic number sliding puzzle.', icon: '🧩', path: '/games/tiles', color: 'from-indigo-500 to-purple-600' },
-    { id: 'catch', title: 'Catch the Monster', description: 'Test your reaction speed!', icon: '👾', path: '/games/catch', color: 'from-emerald-400 to-teal-500' },
-    { id: 'simon', title: 'Simon Says', description: 'Repeat the color sequence!', icon: '🎨', path: '/games/simon', color: 'from-amber-400 to-orange-500' },
-    { id: 'colors', title: 'Color Clash', description: "Don't trust your eyes! Sync your brain hemispheres.", icon: '🌈', path: '/games/colors', color: 'from-cyan-400 to-blue-500' },
-    { id: 'shapes', title: 'Shape Clash', description: "Shape or text? Don't let your brain get confused!", icon: '🔺', path: '/games/shapes', color: 'from-violet-500 to-fuchsia-500' },
-    { id: 'chimp', title: 'Chimp Test', description: 'Are you smarter than a chimpanzee? Test your spatial memory!', icon: '🐒', path: '/games/chimp', color: 'from-orange-400 to-red-500' },
-    { id: 'schulte', title: 'Schulte Table', description: 'Expand your peripheral vision and boost speed reading!', icon: '🔢', path: '/games/schulte', color: 'from-blue-500 to-indigo-600' },
-    { id: 'pattern', title: 'Pattern Memory', description: 'Memorize the grid. The board grows, the patterns get wilder!', icon: '🧩', path: '/games/pattern', color: 'from-sky-400 to-indigo-500' },
-    { id: 'math', title: 'Math Rush', description: 'Calculate fast under pressure. True or False?', icon: '🧮', path: '/games/math', color: 'from-blue-600 to-cyan-500' },
-    { id: 'odd', title: 'Odd One Out', description: 'Find the symbol that breaks the pattern. Spot it fast!', icon: '🕵️‍♂️', path: '/games/odd', color: 'from-fuchsia-500 to-pink-600' },
-    { id: 'arrows', title: 'Arrow Dash', description: 'Focus on the center arrow. Ignore the crowd!', icon: '⬅️', path: '/games/arrows', color: 'from-blue-500 to-indigo-600' }
-  ];
+  { id: 'memory', title: 'Memory Match', description: 'Train your memory. Complete all levels!', icon: '🧠', path: '/games/memory', color: 'from-pink-500 to-rose-500' },
+  { id: 'tiles', title: '15 Puzzle', description: 'The classic number sliding puzzle.', icon: '🧩', path: '/games/tiles', color: 'from-indigo-500 to-purple-600' },
+  { id: 'catch', title: 'Catch the Monster', description: 'Test your reaction speed!', icon: '👾', path: '/games/catch', color: 'from-emerald-400 to-teal-500' },
+  { id: 'simon', title: 'Simon Says', description: 'Repeat the color sequence!', icon: '🎨', path: '/games/simon', color: 'from-amber-400 to-orange-500' },
+  { id: 'colors', title: 'Color Clash', description: "Don't trust your eyes! Sync your brain hemispheres.", icon: '🌈', path: '/games/colors', color: 'from-cyan-400 to-blue-500' },
+  { id: 'shapes', title: 'Shape Clash', description: "Shape or text? Don't let your brain get confused!", icon: '🔺', path: '/games/shapes', color: 'from-violet-500 to-fuchsia-500' },
+  { id: 'chimp', title: 'Chimp Test', description: 'Are you smarter than a chimpanzee? Test your spatial memory!', icon: '🐒', path: '/games/chimp', color: 'from-orange-400 to-red-500' },
+  { id: 'schulte', title: 'Schulte Table', description: 'Expand your peripheral vision and boost speed reading!', icon: '🔢', path: '/games/schulte', color: 'from-lime-500 to-green-600' },
+  { id: 'pattern', title: 'Pattern Memory', description: 'Memorize the grid. The board grows, the patterns get wilder!', icon: '🧩', path: '/games/pattern', color: 'from-rose-400 to-orange-500' },
+  { id: 'math', title: 'Math Rush', description: 'Calculate fast under pressure. True or False?', icon: '🧮', path: '/games/math', color: 'from-blue-600 to-indigo-700' },
+  { id: 'odd', title: 'Odd One Out', description: 'Find the symbol that breaks the pattern. Spot it fast!', icon: '🕵️‍♂️', path: '/games/odd', color: 'from-fuchsia-500 to-pink-600' },
+  { id: 'arrows', title: 'Arrow Dash', description: 'Focus on the center arrow. Ignore the crowd!', icon: '⬅️', path: '/games/arrows', color: 'from-slate-600 to-slate-800' },
+  { id: 'nback', title: 'N-Back Challenge', description: 'The ultimate memory test. Does this match the one 2 steps ago?', icon: '🧠', path: '/games/nback', color: 'from-fuchsia-600 to-purple-700' },
+  { id: 'reverse', title: 'Reverse Recall', description: 'Memorize the sequence, then type it BACKWARDS.', icon: '⏪', path: '/games/reverse', color: 'from-emerald-500 to-teal-700' },
+  { id: 'spatial', title: 'Spatial Trap', description: 'Ignore where the arrow IS. Tell me where it POINTS.', icon: '🧭', path: '/games/spatial', color: 'from-rose-500 to-pink-700' },
+  { id: 'pathfinder', title: 'Pathfinder', description: 'Memorize the hidden path and trace it blindly.', icon: '🗺️', path: '/games/pathfinder', color: 'from-cyan-500 to-blue-700' },
+  { id: 'balance', title: 'Perfect Balance', description: 'Math and speed. Balance the scales before time runs out!', icon: '⚖️', path: '/games/balance', color: 'from-amber-500 to-yellow-600' },
+  { id: 'time', title: 'Time Sense', description: 'Stop the clock exactly on the target time. No peeking!', icon: '⏱️', path: '/games/time', color: 'from-violet-500 to-purple-700' },
+  { id: 'rule', title: 'Rule Switcher', description: 'Sort the cards. The rules change silently. Adapt fast!', icon: '🔀', path: '/games/rule', color: 'from-pink-500 to-rose-700' },
+  { id: 'mirror', title: 'Mirror Matrix', description: 'Draw the perfect mirrored reflection of the pattern.', icon: '🪞', path: '/games/mirror', color: 'from-blue-400 to-indigo-600' },
+  { id: 'shell', title: 'Shell Game', description: 'Track the hidden treasures as they shuffle at high speed!', icon: '🎩', path: '/games/shell', color: 'from-amber-500 to-orange-700' }
+];
 
   return (
     // Добавили transition-colors для плавного перетекания фона и dark:bg-slate-950

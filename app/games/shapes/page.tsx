@@ -9,7 +9,13 @@ const SHAPES = [
   { id: 'square', text: 'square', draw: (color: string) => <rect x="10" y="10" width="80" height="80" rx="16" fill={color} /> },
   { id: 'triangle', text: 'triangle', draw: (color: string) => <path d="M50 10 L90 85 L10 85 Z" fill={color} strokeLinejoin="round" /> },
   { id: 'star', text: 'star', draw: (color: string) => <polygon points="50,5 61,35 95,35 67,55 78,90 50,70 22,90 33,55 5,35 39,35" fill={color} strokeLinejoin="round" /> },
-  { id: 'rhombus', text: 'rhombus', draw: (color: string) => <polygon points="50,10 90,50 50,90 10,50" fill={color} strokeLinejoin="round" /> }
+  { id: 'rhombus', text: 'rhombus', draw: (color: string) => <polygon points="50,10 90,50 50,90 10,50" fill={color} strokeLinejoin="round" /> },
+  { id: 'oval', text: 'oval', draw: (color: string) => <ellipse cx="50" cy="50" rx="45" ry="25" fill={color} /> },
+  { id: 'pentagon', text: 'pentagon', draw: (color: string) => <polygon points="50,5 95,38 77,93 23,93 5,38" fill={color} strokeLinejoin="round" /> },
+  { id: 'hexagon', text: 'hexagon', draw: (color: string) => <polygon points="50,5 89,27 89,73 50,95 11,73 11,27" fill={color} strokeLinejoin="round" /> },
+  { id: 'cross', text: 'cross', draw: (color: string) => <polygon points="35,10 65,10 65,35 90,35 90,65 65,65 65,90 35,90 35,65 10,65 10,35 35,35" fill={color} strokeLinejoin="round" /> },
+  { id: 'heart', text: 'heart', draw: (color: string) => <path d="M 50 85 C 10 55, 0 25, 20 10 C 35 0, 50 20, 50 20 C 50 20, 65 0, 80 10 C 100 25, 90 55, 50 85 Z" fill={color} strokeLinejoin="round" /> },
+
 ];
 
 const COLORS = ['#ef4444', '#3b82f6', '#10b981', '#f59e0b', '#8b5cf6', '#ec4899', '#14b8a6'];
