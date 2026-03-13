@@ -1,9 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export",
+  // output: "export", // <-- ОТКЛЮЧАЕМ ДЛЯ СЕРВЕРА COOLIFY
   images: {
-    unoptimized: true,
+    unoptimized: true, // <-- Это можно оставить, серверу не помешает
   },
 };
 
