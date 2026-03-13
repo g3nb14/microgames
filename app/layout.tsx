@@ -32,7 +32,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 transition-colors duration-500">
-        {children}
+        {/* МАГИЯ ЗДЕСЬ: max(env(safe-area-inset-top), 16px) делает отступ под челку/камеру на телефоне, но оставляет красивый отступ 16px на компьютере */}
+        <div className="min-h-screen pt-[max(env(safe-area-inset-top),16px)] pb-[env(safe-area-inset-bottom)]">
+          {children}
+        </div>
       </body>
     </html>
   );
